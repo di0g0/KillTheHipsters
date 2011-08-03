@@ -10,6 +10,7 @@
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
 	NSMutableArray *hipsterArray;
+	NSTimer *timer;
 }
 
 - (IBAction)showInfo:(id)sender;

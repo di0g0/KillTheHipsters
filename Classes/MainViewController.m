@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 #import "HipsterView.h"
-#define HIPSTERCOUNT 3
+#define HIPSTERCOUNT 5
 
 @implementation MainViewController
 
@@ -19,20 +19,23 @@
 	[super viewDidLoad];
 	hipsterArray = [[NSMutableArray alloc] init];
 	for (int i =0; i<HIPSTERCOUNT; i++) {
-		HipsterView *hipsterView = [[UIImageView alloc] initWithFrame:CGRectMake(50*i, 10, 32, 32)];
+		HipsterView *hipsterView = [[HipsterView alloc] initWithFrame:CGRectMake(10 + 64*i, 10, 64, 64)];
 		hipsterView.image = [UIImage imageNamed:@"hipsterIcon.png"];
 		hipsterView.alpha = 0.0;
+		hipsterView.screenCaller = self;
 		[hipsterArray addObject:hipsterView];
 		[self.view addSubview:hipsterView];
 		[hipsterView release];
 	}
-	[self showHipster];
+	 timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(showHipster) userInfo:nil repeats:YES];
+	//[self showHipster];
 	
 }
 
 
 -(void)showHipster{
-	int index = rand() % HIPSTERCOUNT + 1;
+	NSLog(@"showHipster");
+	int index = rand() % HIPSTERCOUNT;
 	NSLog(@"index: %i",index);
 	HipsterView *hipster = [hipsterArray objectAtIndex:index];
 	hipster.alpha = 1.0;
@@ -45,7 +48,7 @@
 
 
 - (IBAction)showInfo:(id)sender {    
-	
+	[timer invalidate];
 	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
 	controller.delegate = self;
 	

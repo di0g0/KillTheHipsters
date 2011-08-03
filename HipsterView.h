@@ -12,5 +12,7 @@
 @interface HipsterView : UIImageView {
 	MainViewController *screenCaller;
 }
+@property (nonatomic,retain) MainViewController *screenCaller;
+
 
 @end

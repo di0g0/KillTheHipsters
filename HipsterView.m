@@ -10,13 +10,15 @@
 
 
 @implementation HipsterView
-
+@synthesize screenCaller;
 
 - (id)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code.
+		NSLog(@"hipsterCriado");
+		self.userInteractionEnabled = YES;
     }
     return self;
 }
@@ -29,10 +31,16 @@
 }
 */
 
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+	NSLog(@"touchesBegan");
+
+}
+
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
 	NSLog(@"touchesEnded");
 	self.alpha = 0.0;
-	[screenCaller showHipster];
+	//[screenCaller showHipster];
 }
 
 
