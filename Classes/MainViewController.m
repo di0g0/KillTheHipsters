@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 #import "HipsterView.h"
-#define HIPSTERCOUNT 5
+#define HIPSTERCOUNT 10
 
 @implementation MainViewController
 
@@ -16,10 +16,24 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	//self.view.autoresizingMask 
+	int xLimit = self.view.frame.size.height - 64 - 10;
+	NSLog(@"xlimit %i",xLimit);
+
+	int yLimit = self.view.frame.size.width - 64 - 10;
+	NSLog(@"ylimit %i",yLimit);
+	srand(time(NULL));
+
 	[super viewDidLoad];
 	hipsterArray = [[NSMutableArray alloc] init];
 	for (int i =0; i<HIPSTERCOUNT; i++) {
-		HipsterView *hipsterView = [[HipsterView alloc] initWithFrame:CGRectMake(10 + 64*i, 10, 64, 64)];
+		int xValue = rand() % xLimit + 10;
+		NSLog(@"xValue %i",xValue);
+		
+		int yValue = rand() % yLimit + 10;
+		NSLog(@"xValue %i",yValue);
+		
+		HipsterView *hipsterView = [[HipsterView alloc] initWithFrame:CGRectMake(xValue, yValue, 64, 64)];
 		hipsterView.image = [UIImage imageNamed:@"hipsterIcon.png"];
 		hipsterView.alpha = 0.0;
 		hipsterView.screenCaller = self;
@@ -27,11 +41,19 @@
 		[self.view addSubview:hipsterView];
 		[hipsterView release];
 	}
-	 timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(showHipster) userInfo:nil repeats:YES];
+	
+	srand(time(NULL));
+
 	//[self showHipster];
 	
 }
 
+-(void)fireTimer{
+	//if (![timer isValid]) {
+		[timer fire];
+		
+	//}
+}
 
 -(void)showHipster{
 	NSLog(@"showHipster");
@@ -40,18 +62,26 @@
 	HipsterView *hipster = [hipsterArray objectAtIndex:index];
 	hipster.alpha = 1.0;
 }
+-(void)viewWillAppear:(BOOL)animated{
+//	[self fireTimer];
+ timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(showHipster) userInfo:nil repeats:YES];
 
+
+}
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
-    
+
 	[self dismissModalViewControllerAnimated:YES];
 }
 
 
 - (IBAction)showInfo:(id)sender {    
-	[timer invalidate];
 	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
 	controller.delegate = self;
-	
+	if ([timer isValid]) {
+		[timer invalidate];
+
+	}
+
 	controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 	[self presentModalViewController:controller animated:YES];
 	
@@ -77,7 +107,7 @@
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	// Return YES for supported orientations.
-	return (interfaceOrientation == UIInterfaceOrientationPortrait || interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight);
+	return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
 

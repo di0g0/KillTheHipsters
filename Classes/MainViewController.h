@@ -15,4 +15,5 @@
 
 - (IBAction)showInfo:(id)sender;
 -(void)showHipster;
+-(void)fireTimer;
 @end
