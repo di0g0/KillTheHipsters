@@ -41,6 +41,7 @@
 	NSLog(@"touchesEnded");
 	self.alpha = 0.0;
 	[PlayerData sharedPlayerData].amountPoints += 10;
+	[PlayerData sharedPlayerData].hitTargets += 1;
 	screenCaller.pointsLabel.text = [NSString stringWithFormat:@"%i",[PlayerData sharedPlayerData].amountPoints];
 	//[screenCaller showHipster];
 }

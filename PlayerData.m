@@ -10,6 +10,8 @@
 
 @implementation PlayerData
 @synthesize amountPoints;
+@synthesize hitTargets;
+
 static PlayerData *sharedPlayerData = nil;
 
 +(PlayerData *) sharedPlayerData
@@ -25,6 +27,7 @@ static PlayerData *sharedPlayerData = nil;
 	if ((self=[super init]))
 	{
 		amountPoints = 0;
+		hitTargets = 0;
 	}
 	
 	return self;

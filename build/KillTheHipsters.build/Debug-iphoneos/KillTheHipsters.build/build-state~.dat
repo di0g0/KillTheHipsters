@@ -1,7 +1,7 @@
 TKillTheHipsters
 v7
 r0
-t334692862.705977
+t334679646.901484
 cCheck dependencies
 cCpResource build/Debug-iphoneos/KillTheHipsters.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/Info.plist KillTheHipsters-Info.plist
@@ -21,9 +21,9 @@ cCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objec
 cCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipstersAppDelegate.o /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/MainViewController.o /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/FlipsideViewController.o /Users/diogo.costa/Projects/KillTheHipsters/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters normal armv6
 cCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/HipsterView.o /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/PlayerData.o /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters normal armv6
 cLd /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters normal armv7
 cCreateUniversalBinary /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters normal "armv6 armv7"
 cGenerateDSYMFile /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app.dSYM /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters
@@ -113,18 +113,17 @@ i"KillTheHipstersAppDelegate.h"
 i"MainViewController.h"
 
 N/Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.h
-c000000004E42CA54000000000000020D
-t1313000020
-s525
+c000000004E4295F600000000000001ED
+t1312986614
+s493
 i"FlipsideViewController.h"
 
 N/Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m
-c000000004E42CA7D0000000000000D37
-t1313000061
-s3383
+c000000004E4296020000000000000B81
+t1312986626
+s2945
 i"MainViewController.h"
 i"HipsterView.h"
-i"PlayerData.h"
 
 N/Users/diogo.costa/Projects/KillTheHipsters/FlipsideView.xib
 c000000004E3AF0D100000000000059A4
@@ -139,9 +138,9 @@ i<UIKit/UIKit.h>
 i"MainViewController.h"
 
 N/Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m
-c000000004E42C4C4000000000000048B
-t1312998596
-s1163
+c000000004E4296B8000000000000045B
+t1312986808
+s1115
 i"HipsterView.h"
 i"PlayerData.h"
 
@@ -164,23 +163,23 @@ t1312381206
 s20664
 
 N/Users/diogo.costa/Projects/KillTheHipsters/PlayerData.h
-c000000004E42C4270000000000000184
-t1312998439
-s388
+c000000004E4296440000000000000146
+t1312986692
+s326
 i<Foundation/Foundation.h>
 
 N/Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m
-c000000004E42C4310000000000000219
-t1312998449
-s537
+c000000004E42921700000000000001EE
+t1312985623
+s494
 i"PlayerData.h"
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app
-t1313000062
+t1312986846
 s442
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app.dSYM
-t1313000062
+t1312986846
 s102
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/FlipsideView.nib
@@ -192,8 +191,8 @@ t1312986844
 s897
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters
-t1313000062
-s79968
+t1312986846
+s60992
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/MainView.nib
 t1312986845
@@ -228,12 +227,12 @@ t1312986846
 s41120
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/HipsterView.o
-t1313000062
-s41984
+t1312986846
+s41660
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters
-t1313000062
-s33196
+t1312986846
+s28384
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters.LinkFileList
 c000000004E4296DC0000000000000379
@@ -241,16 +240,16 @@ t1312986844
 s889
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipstersAppDelegate.o
-t1313000062
-s51824
+t1312986846
+s51780
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/MainViewController.o
-t1313000062
-s50448
+t1312986846
+s48616
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/PlayerData.o
-t1312998612
-s9588
+t1312986846
+s8640
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/main.o
 t1312986846
@@ -261,12 +260,12 @@ t1312986846
 s41064
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/HipsterView.o
-t1313000062
-s41884
+t1312986846
+s41552
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters
-t1313000062
-s28756
+t1312986846
+s28224
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters.LinkFileList
 c000000004E4296DC0000000000000379
@@ -274,16 +273,16 @@ t1312986844
 s889
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipstersAppDelegate.o
-t1313000062
-s51744
+t1312986846
+s51704
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/MainViewController.o
-t1313000062
-s49448
+t1312986846
+s48000
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/PlayerData.o
-t1312998612
-s9548
+t1312986846
+s8612
 
 N/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/main.o
 t1312986846
@@ -315,15 +314,15 @@ s1005
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies334692861#334692862#0(0"0(0#1#0"8663981376#0"0#
+lSLF07#2@18"Check dependencies334679644#334679644#0(0"0(0#1#0"8644756192#0"0#
 
 CCodeSign /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app
-s334692862.359348
-e334692862.705934
+s334679646.724384
+e334679646.901403
 r1
 xCodeSign
 x/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app
-lSLF07#2@49"CodeSign build/Debug-iphoneos/KillTheHipsters.app334692862#334692862#0(0"0(0#0#84"/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app8662278944#707"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Diogo Costa (6S45NGQ344)" --resource-rules=/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/ResourceRules.plist --entitlements /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters.xcent /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app0#
+lSLF07#2@49"CodeSign build/Debug-iphoneos/KillTheHipsters.app334679646#334679646#0(0"0(0#0#84"/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app8619250048#707"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Diogo Costa (6S45NGQ344)" --resource-rules=/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/ResourceRules.plist --entitlements /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters.xcent /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/FlipsideViewController.o /Users/diogo.costa/Projects/KillTheHipsters/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s334679646.306873
@@ -339,8 +338,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/diogo.costa/Projects/KillTheHipsters/Classes/FlipsideViewController.m334679646#334679646#0(0"0(0#0#76"/Users/diogo.costa/Projects/KillTheHipsters/Classes/FlipsideViewController.m8643462848#1989"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv6 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-cycwotjgwkurrpfoehaiqzguyiel/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/Classes/FlipsideViewController.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/FlipsideViewController.o0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/HipsterView.o /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s334692862.085631
-e334692862.172523
+s334679646.387406
+e334679646.543395
 r1
 xCompileC
 xbuild/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/HipsterView.o
@@ -349,11 +348,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m334692862#334692862#0(0"0(0#0#57"/Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m8662866528#1959"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv6 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-cycwotjgwkurrpfoehaiqzguyiel/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/HipsterView.o0#
+lSLF07#2@65"Compile /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m334679646#334679646#0(0"0(0#0#57"/Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m8640787264#1959"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv6 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-cycwotjgwkurrpfoehaiqzguyiel/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/HipsterView.o0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipstersAppDelegate.o /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s334692862.016419
-e334692862.100931
+s334679646.304811
+e334679646.431122
 r1
 xCompileC
 xbuild/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipstersAppDelegate.o
@@ -362,11 +361,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m334692862#334692862#0(0"0(0#0#80"/Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m8661210016#1997"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv6 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-cycwotjgwkurrpfoehaiqzguyiel/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipstersAppDelegate.o0#
+lSLF07#2@88"Compile /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m334679646#334679646#0(0"0(0#0#80"/Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m8646932736#1997"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv6 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-cycwotjgwkurrpfoehaiqzguyiel/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipstersAppDelegate.o0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/MainViewController.o /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s334692862.017322
-e334692862.195518
+s334679646.305835
+e334679646.449624
 r1
 xCompileC
 xbuild/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/MainViewController.o
@@ -375,11 +374,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m334692862#334692862#0(0"0(0#0#72"/Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m8662400064#1981"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv6 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-cycwotjgwkurrpfoehaiqzguyiel/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/MainViewController.o0#
+lSLF07#2@80"Compile /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m334679646#334679646#0(0"0(0#0#72"/Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m8644106400#1981"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv6 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-cycwotjgwkurrpfoehaiqzguyiel/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/MainViewController.o0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/PlayerData.o /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s334691412.598212
-e334691412.732995
+s334679646.431258
+e334679646.508162
 r1
 xCompileC
 xbuild/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/PlayerData.o
@@ -388,7 +387,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m334691412#334691412#0(0"0(0#0#56"/Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m8648507840#1957"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv6 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-cycwotjgwkurrpfoehaiqzguyiel/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/PlayerData.o0#
+lSLF07#2@64"Compile /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m334679646#334679646#0(0"0(0#0#56"/Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m8638968960#1957"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv6 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-cycwotjgwkurrpfoehaiqzguyiel/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/PlayerData.o0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/main.o /Users/diogo.costa/Projects/KillTheHipsters/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s334679646.303637
@@ -417,8 +416,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/diogo.costa/Projects/KillTheHipsters/Classes/FlipsideViewController.m334679646#334679646#0(0"0(0#0#76"/Users/diogo.costa/Projects/KillTheHipsters/Classes/FlipsideViewController.m8642037248#1989"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv7 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-gskwnbofldhhbxbgngzrtligdzcs/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/Classes/FlipsideViewController.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/FlipsideViewController.o0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/HipsterView.o /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s334692862.172871
-e334692862.244160
+s334679646.553358
+e334679646.654618
 r1
 xCompileC
 xbuild/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/HipsterView.o
@@ -427,11 +426,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m334692862#334692862#0(0"0(0#0#57"/Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m8661012992#1959"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv7 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-gskwnbofldhhbxbgngzrtligdzcs/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/HipsterView.o0#
+lSLF07#2@65"Compile /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m334679646#334679646#0(0"0(0#0#57"/Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m8636624704#1959"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv7 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-gskwnbofldhhbxbgngzrtligdzcs/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/HipsterView.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/HipsterView.o0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipstersAppDelegate.o /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s334692862.099220
-e334692862.186080
+s334679646.449886
+e334679646.553135
 r1
 xCompileC
 xbuild/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipstersAppDelegate.o
@@ -440,11 +439,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m334692862#334692862#0(0"0(0#0#80"/Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m8661776704#1997"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv7 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-gskwnbofldhhbxbgngzrtligdzcs/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipstersAppDelegate.o0#
+lSLF07#2@88"Compile /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m334679646#334679646#0(0"0(0#0#80"/Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m8639886400#1997"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv7 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-gskwnbofldhhbxbgngzrtligdzcs/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/Classes/KillTheHipstersAppDelegate.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipstersAppDelegate.o0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/MainViewController.o /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s334692862.101046
-e334692862.210500
+s334679646.508299
+e334679646.651438
 r1
 xCompileC
 xbuild/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/MainViewController.o
@@ -453,11 +452,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m334692862#334692862#0(0"0(0#0#72"/Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m8658614720#1981"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv7 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-gskwnbofldhhbxbgngzrtligdzcs/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/MainViewController.o0#
+lSLF07#2@80"Compile /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m334679646#334679646#0(0"0(0#0#72"/Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m8646140800#1981"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv7 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-gskwnbofldhhbxbgngzrtligdzcs/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/Classes/MainViewController.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/MainViewController.o0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/PlayerData.o /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s334691412.766761
-e334691412.830284
+s334679646.598135
+e334679646.661684
 r1
 xCompileC
 xbuild/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/PlayerData.o
@@ -466,7 +465,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m334691412#334691412#0(0"0(0#0#56"/Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m8615432608#1957"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv7 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-gskwnbofldhhbxbgngzrtligdzcs/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/PlayerData.o0#
+lSLF07#2@64"Compile /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m334679646#334679646#0(0"0(0#0#56"/Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m8644008512#1957"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-generated-files.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-own-target-headers.hmap -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-all-target-headers.hmap -iquote /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters-project-headers.hmap -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -I/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/include -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources/armv7 -I/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/DerivedSources -include /var/folders/a8/a82qtc3DGKuTE4WhMjbVMVWVBiM/-Caches-/com.apple.Xcode.413218534/SharedPrecompiledHeaders/KillTheHipsters_Prefix-gskwnbofldhhbxbgngzrtligdzcs/KillTheHipsters_Prefix.pch -c /Users/diogo.costa/Projects/KillTheHipsters/PlayerData.m -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/PlayerData.o0#
 
 CCompileC build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/main.o /Users/diogo.costa/Projects/KillTheHipsters/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s334679646.443823
@@ -524,43 +523,43 @@ x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceR
 lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist334679644#334679644#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8644292960#512"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app0#
 
 CCreateUniversalBinary /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters normal "armv6 armv7"
-s334692862.266367
-e334692862.269172
+s334679646.685098
+e334679646.688252
 r1
 xCreateUniversalBinary
 x/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters
 xnormal
 xarmv6 armv7
-lSLF07#2@99"CreateUniversalBinary build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters normal "armv6 armv7"334692862#334692862#0(0"0(0#0#55"/Users/diogo.costa/Projects/KillTheHipsters/armv6 armv78657826688#602"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters -output /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters0#
+lSLF07#2@99"CreateUniversalBinary build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters normal "armv6 armv7"334679646#334679646#0(0"0(0#0#55"/Users/diogo.costa/Projects/KillTheHipsters/armv6 armv78640623488#602"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters -output /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters0#
 
 CGenerateDSYMFile /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app.dSYM /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters
-s334692862.269232
-e334692862.356817
+s334679646.688466
+e334679646.717636
 r1
 xGenerateDSYMFile
 x/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app.dSYM
 x/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters
-lSLF07#2@119"GenerateDSYMFile build/Debug-iphoneos/KillTheHipsters.app.dSYM build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters334692862#334692862#0(0"0(0#0#100"/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters8655858272#401"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters -o /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app.dSYM0#
+lSLF07#2@119"GenerateDSYMFile build/Debug-iphoneos/KillTheHipsters.app.dSYM build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters334679646#334679646#0(0"0(0#0#100"/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters8640142112#401"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/KillTheHipsters -o /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app.dSYM0#
 
 CLd /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters normal armv6
-s334692862.195643
-e334692862.225918
+s334679646.543543
+e334679646.598011
 r1
 xLd
 x/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters
 xnormal
 xarmv6
-lSLF07#2@150"Link /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters334692862#334692862#0(0"0(0#0#0"8660141088#932"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -filelist /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters0#
+lSLF07#2@150"Link /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters334679646#334679646#0(0"0(0#0#0"8640887872#932"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -filelist /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv6/KillTheHipsters0#
 
 CLd /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters normal armv7
-s334692862.244526
-e334692862.266162
+s334679646.661803
+e334679646.684878
 r1
 xLd
 x/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters
 xnormal
 xarmv7
-lSLF07#2@150"Link /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters334692862#334692862#0(0"0(0#0#0"8658657824#932"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -filelist /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters0#
+lSLF07#2@150"Link /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters334679646#334679646#0(0"0(0#0#0"8642033120#932"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -F/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos -filelist /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/Objects-normal/armv7/KillTheHipsters0#
 
 CProcessInfoPlistFile /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app/Info.plist KillTheHipsters-Info.plist
 s334679644.947698
@@ -619,10 +618,10 @@ x/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-i
 lSLF07#2@199"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters.xcent334679646#334679646#0(0"0(0#0#130"/Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters.xcent8636207968#466"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/diogo.costa/Projects/KillTheHipsters/build/KillTheHipsters.build/Debug-iphoneos/KillTheHipsters.build/KillTheHipsters.xcent0#
 
 CTouch /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app
-s334692862.357000
-e334692862.359129
+s334679646.719152
+e334679646.722031
 r1
 xTouch
 x/Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app
-lSLF07#2@90"Touch /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app334692862#334692862#0(0"0(0#0#0"8663333728#282"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app0#
+lSLF07#2@90"Touch /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app334679646#334679646#0(0"0(0#0#0"8639143520#282"    cd /Users/diogo.costa/Projects/KillTheHipsters    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/diogo.costa/Projects/KillTheHipsters/build/Debug-iphoneos/KillTheHipsters.app0#
 

@@ -8,7 +8,9 @@
 
 #import "MainViewController.h"
 #import "HipsterView.h"
-#define HIPSTERCOUNT 10
+#import "PlayerData.h"
+
+#define HIPSTERCOUNT 20
 
 @implementation MainViewController
 @synthesize pointsLabel;
@@ -17,6 +19,10 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	//self.view.autoresizingMask 
+	interval = 1.0;
+
+	fatorDif = 12;
+	
 	int xLimit = self.view.frame.size.height - 64 - 10;
 	NSLog(@"xlimit %i",xLimit);
 
@@ -56,6 +62,18 @@
 }
 
 -(void)showHipster{
+	
+	if ([PlayerData sharedPlayerData].hitTargets == fatorDif) {
+		interval /= 1.3;
+		fatorDif = fatorDif + fatorDif*2;
+		NSLog(@"intervalo: %f",interval);
+		NSLog(@"fator: %f",fatorDif);
+
+//		[PlayerData sharedPlayerData].hitTargets = 0;
+		timer = [NSTimer scheduledTimerWithTimeInterval:interval target:self selector:@selector(showHipster) userInfo:nil repeats:YES];
+
+	}
+	
 	NSLog(@"showHipster");
 	int index = rand() % HIPSTERCOUNT;
 	NSLog(@"index: %i",index);
@@ -64,7 +82,7 @@
 }
 -(void)viewWillAppear:(BOOL)animated{
 //	[self fireTimer];
- timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(showHipster) userInfo:nil repeats:YES];
+ timer = [NSTimer scheduledTimerWithTimeInterval:interval target:self selector:@selector(showHipster) userInfo:nil repeats:YES];
 
 
 }

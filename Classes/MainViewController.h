@@ -12,6 +12,8 @@
 	NSMutableArray *hipsterArray;
 	NSTimer *timer;
 	IBOutlet UILabel *pointsLabel; 
+	float interval;
+	int fatorDif;
 }
 @property (nonatomic,retain) IBOutlet UILabel *pointsLabel;
 - (IBAction)showInfo:(id)sender;

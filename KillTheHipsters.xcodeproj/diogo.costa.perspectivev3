@@ -257,10 +257,12 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>348</real>
+								<real>22</real>
+								<real>326</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
+								<string>SCMStatusColumn</string>
 								<string>MainColumn</string>
 							</array>
 						</dict>
@@ -280,7 +282,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -299,8 +301,10 @@
 						<string>{{0, 0}, {365, 958}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
+							<string>SCMStatusColumn</string>
+							<real>22</real>
 							<string>MainColumn</string>
-							<real>348</real>
+							<real>326</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>0 59 1920 999 0 0 1920 1058 </string>
@@ -321,7 +325,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>675A7C7013E9909700C28F30</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>HipsterView.m</string>
+								<string>MainViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +333,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>675A7C7113E9909700C28F30</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>HipsterView.m</string>
+										<string>MainViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>67CD70F413F2CE6100F6AB37</string>
+										<string>67CD713813F3020900F6AB37</string>
 										<key>history</key>
 										<array>
 											<string>675A7C9813E9992900C28F30</string>
@@ -342,12 +346,12 @@
 											<string>6725013313EB44B000878B8B</string>
 											<string>6725013413EB44B000878B8B</string>
 											<string>67CD70ED13F2CE6100F6AB37</string>
-											<string>67CD70EE13F2CE6100F6AB37</string>
-											<string>67CD70EF13F2CE6100F6AB37</string>
-											<string>67CD70F013F2CE6100F6AB37</string>
-											<string>67CD70F113F2CE6100F6AB37</string>
-											<string>67CD70F213F2CE6100F6AB37</string>
-											<string>67CD70F313F2CE6100F6AB37</string>
+											<string>67CD710313F2FC5D00F6AB37</string>
+											<string>67CD710413F2FC5D00F6AB37</string>
+											<string>67CD710613F2FC5D00F6AB37</string>
+											<string>67CD710713F2FC5D00F6AB37</string>
+											<string>67CD713613F3020900F6AB37</string>
+											<string>67CD713713F3020900F6AB37</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -664,7 +668,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>67CD70FE13F2CE6100F6AB37</string>
+		<string>67CD713913F3020900F6AB37</string>
 		<string>67CD70FF13F2CE6100F6AB37</string>
 		<string>67CD710013F2CE6100F6AB37</string>
 		<string>/Users/diogo.costa/Projects/KillTheHipsters/KillTheHipsters.xcodeproj</string>

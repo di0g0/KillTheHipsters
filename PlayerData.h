@@ -11,9 +11,11 @@
 
 @interface PlayerData : NSObject {
 	int amountPoints;
+	int hitTargets;
 }
 +(PlayerData *) sharedPlayerData;
 
 @property (nonatomic,assign) int amountPoints;
+@property (nonatomic,assign) int hitTargets;
 
 @end
