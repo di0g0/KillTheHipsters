@@ -11,7 +11,7 @@
 #define HIPSTERCOUNT 10
 
 @implementation MainViewController
-
+@synthesize pointsLabel;
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

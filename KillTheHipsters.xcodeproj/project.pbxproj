@@ -19,6 +19,7 @@
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
 		675A7C8413E9937900C28F30 /* HipsterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 675A7C8313E9937900C28F30 /* HipsterView.m */; };
 		675A7C8613E994BC00C28F30 /* hipsterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 675A7C8513E994BC00C28F30 /* hipsterIcon.png */; };
+		67CD70D513F2C77700F6AB37 /* PlayerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CD70D413F2C77700F6AB37 /* PlayerData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		675A7C8213E9937900C28F30 /* HipsterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HipsterView.h; sourceTree = "<group>"; };
 		675A7C8313E9937900C28F30 /* HipsterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HipsterView.m; sourceTree = "<group>"; };
 		675A7C8513E994BC00C28F30 /* hipsterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hipsterIcon.png; sourceTree = "<group>"; };
+		67CD70D313F2C77700F6AB37 /* PlayerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerData.h; sourceTree = "<group>"; };
+		67CD70D413F2C77700F6AB37 /* PlayerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerData.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* KillTheHipsters-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KillTheHipsters-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +94,8 @@
 				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
 				675A7C8213E9937900C28F30 /* HipsterView.h */,
 				675A7C8313E9937900C28F30 /* HipsterView.m */,
+				67CD70D313F2C77700F6AB37 /* PlayerData.h */,
+				67CD70D413F2C77700F6AB37 /* PlayerData.m */,
 			);
 			name = "Main View";
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
 				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
 				675A7C8413E9937900C28F30 /* HipsterView.m in Sources */,
+				67CD70D513F2C77700F6AB37 /* PlayerData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,16 +22,16 @@
 	};
 	289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1595, 687}}";
-			sepNavSelRange = "{395, 0}";
-			sepNavVisRange = "{0, 401}";
+			sepNavIntBoundsRect = "{{0, 0}, {1489, 921}}";
+			sepNavSelRange = "{416, 0}";
+			sepNavVisRange = "{0, 493}";
 		};
 	};
 	289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1859, 1495}}";
-			sepNavSelRange = "{232, 0}";
-			sepNavVisRange = "{150, 1006}";
+			sepNavIntBoundsRect = "{{0, 0}, {1489, 1586}}";
+			sepNavSelRange = "{293, 0}";
+			sepNavVisRange = "{0, 1789}";
 		};
 	};
 	289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {
@@ -68,7 +68,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					10,
+					1311,
 					20,
 					48,
 					43,
@@ -85,21 +85,29 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 334176239;
-			PBXWorkspaceStateSaveDate = 334176239;
+			PBXPerProjectTemplateStateSaveDate = 334677838;
+			PBXWorkspaceStateSaveDate = 334677838;
 		};
 		perUserProjectItems = {
-			672500AA13EB271A00878B8B /* PBXTextBookmark */ = 672500AA13EB271A00878B8B /* PBXTextBookmark */;
-			6725013313EB44B000878B8B /* PBXTextBookmark */ = 6725013313EB44B000878B8B /* PBXTextBookmark */;
-			6725013413EB44B000878B8B /* PBXTextBookmark */ = 6725013413EB44B000878B8B /* PBXTextBookmark */;
-			6725013513EB44B000878B8B /* PlistBookmark */ = 6725013513EB44B000878B8B /* PlistBookmark */;
-			6725013A13EB463000878B8B /* PlistBookmark */ = 6725013A13EB463000878B8B /* PlistBookmark */;
-			675A7C9813E9992900C28F30 /* PBXTextBookmark */ = 675A7C9813E9992900C28F30 /* PBXTextBookmark */;
-			675A7C9C13E9992900C28F30 /* PBXBookmark */ = 675A7C9C13E9992900C28F30 /* PBXBookmark */;
-			675A7D5013E9A96200C28F30 /* PBXTextBookmark */ = 675A7D5013E9A96200C28F30 /* PBXTextBookmark */;
-			675A7D6013E9A99A00C28F30 /* PBXTextBookmark */ = 675A7D6013E9A99A00C28F30 /* PBXTextBookmark */;
-			675A7D6213E9A99A00C28F30 /* PBXTextBookmark */ = 675A7D6213E9A99A00C28F30 /* PBXTextBookmark */;
-			675A7D7313E9A9F300C28F30 /* PBXTextBookmark */ = 675A7D7313E9A9F300C28F30 /* PBXTextBookmark */;
+			672500AA13EB271A00878B8B = 672500AA13EB271A00878B8B /* PBXTextBookmark */;
+			6725013313EB44B000878B8B = 6725013313EB44B000878B8B /* PBXTextBookmark */;
+			6725013413EB44B000878B8B = 6725013413EB44B000878B8B /* PBXTextBookmark */;
+			6725013513EB44B000878B8B = 6725013513EB44B000878B8B /* PlistBookmark */;
+			6725013A13EB463000878B8B = 6725013A13EB463000878B8B /* PlistBookmark */;
+			675A7C9813E9992900C28F30 = 675A7C9813E9992900C28F30 /* PBXTextBookmark */;
+			675A7C9C13E9992900C28F30 = 675A7C9C13E9992900C28F30 /* PBXBookmark */;
+			675A7D5013E9A96200C28F30 = 675A7D5013E9A96200C28F30 /* PBXTextBookmark */;
+			675A7D6013E9A99A00C28F30 = 675A7D6013E9A99A00C28F30 /* PBXTextBookmark */;
+			675A7D6213E9A99A00C28F30 = 675A7D6213E9A99A00C28F30 /* PBXTextBookmark */;
+			675A7D7313E9A9F300C28F30 = 675A7D7313E9A9F300C28F30 /* PBXTextBookmark */;
+			67CD70ED13F2CE6100F6AB37 /* PlistBookmark */ = 67CD70ED13F2CE6100F6AB37 /* PlistBookmark */;
+			67CD70EE13F2CE6100F6AB37 /* PBXTextBookmark */ = 67CD70EE13F2CE6100F6AB37 /* PBXTextBookmark */;
+			67CD70EF13F2CE6100F6AB37 /* PBXTextBookmark */ = 67CD70EF13F2CE6100F6AB37 /* PBXTextBookmark */;
+			67CD70F013F2CE6100F6AB37 /* PBXTextBookmark */ = 67CD70F013F2CE6100F6AB37 /* PBXTextBookmark */;
+			67CD70F113F2CE6100F6AB37 /* PBXTextBookmark */ = 67CD70F113F2CE6100F6AB37 /* PBXTextBookmark */;
+			67CD70F213F2CE6100F6AB37 /* PBXTextBookmark */ = 67CD70F213F2CE6100F6AB37 /* PBXTextBookmark */;
+			67CD70F313F2CE6100F6AB37 /* XCBuildMessageTextBookmark */ = 67CD70F313F2CE6100F6AB37 /* XCBuildMessageTextBookmark */;
+			67CD70F413F2CE6100F6AB37 /* PBXTextBookmark */ = 67CD70F413F2CE6100F6AB37 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 675A7C7613E9909700C28F30 /* Source Control */;
 		userBuildSettings = {
@@ -157,7 +165,7 @@
 		);
 		name = "/Users/diogo.costa/Projects/KillTheHipsters/KillTheHipsters-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	675A7C6513E9909600C28F30 /* KillTheHipsters */ = {
 		isa = PBXExecutable;
@@ -166,7 +174,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -207,16 +215,17 @@
 	};
 	675A7C8213E9937900C28F30 /* HipsterView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1520, 687}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1489, 921}}";
 			sepNavSelRange = "{328, 12}";
 			sepNavVisRange = "{0, 349}";
 		};
 	};
 	675A7C8313E9937900C28F30 /* HipsterView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1520, 689}}";
-			sepNavSelRange = "{851, 0}";
-			sepNavVisRange = "{0, 931}";
+			sepNavIntBoundsRect = "{{0, 0}, {1489, 715}}";
+			sepNavSelRange = "{951, 0}";
+			sepNavVisRange = "{143, 972}";
+			sepNavWindowFrame = "{{15, 50}, {1865, 1003}}";
 		};
 	};
 	675A7C8513E994BC00C28F30 /* hipsterIcon.png */ = {
@@ -243,7 +252,7 @@
 		fRef = 675A7C8313E9937900C28F30 /* HipsterView.m */;
 		name = "HipsterView.m: 43";
 		rLen = 0;
-		rLoc = 851;
+		rLoc = 1035;
 		rType = 0;
 		vrLen = 931;
 		vrLoc = 0;
@@ -273,9 +282,103 @@
 		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
 		name = "MainViewController.h: 18";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 487;
 		rType = 0;
 		vrLen = 401;
 		vrLoc = 0;
+	};
+	67CD70D313F2C77700F6AB37 /* PlayerData.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1489, 921}}";
+			sepNavSelRange = "{306, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	67CD70D413F2C77700F6AB37 /* PlayerData.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1489, 630}}";
+			sepNavSelRange = "{222, 0}";
+			sepNavVisRange = "{0, 494}";
+		};
+	};
+	67CD70ED13F2CE6100F6AB37 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* KillTheHipsters-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/diogo.costa/Projects/KillTheHipsters/KillTheHipsters-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	67CD70EE13F2CE6100F6AB37 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 675A7C8213E9937900C28F30 /* HipsterView.h */;
+		name = "HipsterView.h: 15";
+		rLen = 12;
+		rLoc = 328;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	67CD70EF13F2CE6100F6AB37 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
+		name = "MainViewController.h: 16";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 493;
+		vrLoc = 0;
+	};
+	67CD70F013F2CE6100F6AB37 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 14";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 1789;
+		vrLoc = 0;
+	};
+	67CD70F113F2CE6100F6AB37 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 67CD70D313F2C77700F6AB37 /* PlayerData.h */;
+		name = "PlayerData.h: 17";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 326;
+		vrLoc = 0;
+	};
+	67CD70F213F2CE6100F6AB37 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 67CD70D413F2C77700F6AB37 /* PlayerData.m */;
+		name = "PlayerData.m: 12";
+		rLen = 0;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 494;
+		vrLoc = 0;
+	};
+	67CD70F313F2CE6100F6AB37 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Passing argument 1 of 'setPointsLabel:' makes pointer from integer without a cast";
+		fRef = 675A7C8313E9937900C28F30 /* HipsterView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 43;
+		rType = 1;
+	};
+	67CD70F413F2CE6100F6AB37 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 675A7C8313E9937900C28F30 /* HipsterView.m */;
+		name = "HipsterView.m: 44";
+		rLen = 0;
+		rLoc = 951;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 143;
 	};
 }

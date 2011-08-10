@@ -11,8 +11,9 @@
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
 	NSMutableArray *hipsterArray;
 	NSTimer *timer;
+	IBOutlet UILabel *pointsLabel; 
 }
-
+@property (nonatomic,retain) IBOutlet UILabel *pointsLabel;
 - (IBAction)showInfo:(id)sender;
 -(void)showHipster;
 -(void)fireTimer;

@@ -7,7 +7,7 @@
 //
 
 #import "HipsterView.h"
-
+#import "PlayerData.h"
 
 @implementation HipsterView
 @synthesize screenCaller;
@@ -40,6 +40,8 @@
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
 	NSLog(@"touchesEnded");
 	self.alpha = 0.0;
+	[PlayerData sharedPlayerData].amountPoints += 10;
+	screenCaller.pointsLabel.text = [NSString stringWithFormat:@"%i",[PlayerData sharedPlayerData].amountPoints];
 	//[screenCaller showHipster];
 }
 
