@@ -20,6 +20,11 @@
 		675A7C8413E9937900C28F30 /* HipsterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 675A7C8313E9937900C28F30 /* HipsterView.m */; };
 		675A7C8613E994BC00C28F30 /* hipsterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 675A7C8513E994BC00C28F30 /* hipsterIcon.png */; };
 		67CD70D513F2C77700F6AB37 /* PlayerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CD70D413F2C77700F6AB37 /* PlayerData.m */; };
+		D9D6E27D13F4E405005951B4 /* explo1.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D6E27913F4E405005951B4 /* explo1.png */; };
+		D9D6E27E13F4E405005951B4 /* explo2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D6E27A13F4E405005951B4 /* explo2.png */; };
+		D9D6E27F13F4E405005951B4 /* explo3.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D6E27B13F4E405005951B4 /* explo3.png */; };
+		D9D6E28013F4E405005951B4 /* explo4.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D6E27C13F4E405005951B4 /* explo4.png */; };
+		D9D6E28213F4E9E6005951B4 /* explo5.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D6E28113F4E9E6005951B4 /* explo5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +49,11 @@
 		67CD70D313F2C77700F6AB37 /* PlayerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerData.h; sourceTree = "<group>"; };
 		67CD70D413F2C77700F6AB37 /* PlayerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerData.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* KillTheHipsters-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KillTheHipsters-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D9D6E27913F4E405005951B4 /* explo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explo1.png; path = images/explo1.png; sourceTree = "<group>"; };
+		D9D6E27A13F4E405005951B4 /* explo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explo2.png; path = images/explo2.png; sourceTree = "<group>"; };
+		D9D6E27B13F4E405005951B4 /* explo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explo3.png; path = images/explo3.png; sourceTree = "<group>"; };
+		D9D6E27C13F4E405005951B4 /* explo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explo4.png; path = images/explo4.png; sourceTree = "<group>"; };
+		D9D6E28113F4E9E6005951B4 /* explo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explo5.png; path = images/explo5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9D6E27913F4E405005951B4 /* explo1.png */,
+				D9D6E27A13F4E405005951B4 /* explo2.png */,
+				D9D6E27B13F4E405005951B4 /* explo3.png */,
+				D9D6E27C13F4E405005951B4 /* explo4.png */,
+				D9D6E28113F4E9E6005951B4 /* explo5.png */,
 				675A7C8513E994BC00C28F30 /* hipsterIcon.png */,
 				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
 				280E754B0DD40C5E005A515E /* MainView.xib */,
@@ -170,6 +185,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KillTheHipsters" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -199,6 +217,11 @@
 				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
 				675A7C8613E994BC00C28F30 /* hipsterIcon.png in Resources */,
+				D9D6E27D13F4E405005951B4 /* explo1.png in Resources */,
+				D9D6E27E13F4E405005951B4 /* explo2.png in Resources */,
+				D9D6E27F13F4E405005951B4 /* explo3.png in Resources */,
+				D9D6E28013F4E405005951B4 /* explo4.png in Resources */,
+				D9D6E28213F4E9E6005951B4 /* explo5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +253,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = KillTheHipsters_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "KillTheHipsters-Info.plist";
 				PRODUCT_NAME = KillTheHipsters;
 			};
@@ -242,6 +266,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = KillTheHipsters_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "KillTheHipsters-Info.plist";
 				PRODUCT_NAME = KillTheHipsters;
 				VALIDATE_PRODUCT = YES;
@@ -256,7 +281,6 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -270,7 +294,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
