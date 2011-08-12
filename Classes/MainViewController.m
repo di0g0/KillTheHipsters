@@ -67,7 +67,7 @@
 		interval /= 1.3;
 		fatorDif = fatorDif + fatorDif*2;
 		NSLog(@"intervalo: %f",interval);
-		NSLog(@"fator: %f",fatorDif);
+		NSLog(@"fator: %i",fatorDif);
 
 //		[PlayerData sharedPlayerData].hitTargets = 0;
 		timer = [NSTimer scheduledTimerWithTimeInterval:interval target:self selector:@selector(showHipster) userInfo:nil repeats:YES];

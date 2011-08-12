@@ -14,5 +14,7 @@
 }
 @property (nonatomic,retain) MainViewController *screenCaller;
 
+-(void)explode;
+-(void)didExplode;
 
 @end
