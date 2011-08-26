@@ -57,18 +57,19 @@
     UIImage* img4 = [UIImage imageNamed:@"explo4.png"];    
     UIImage* img5 = [UIImage imageNamed:@"explo5.png"];    
 
-    NSArray *imgArray= [NSArray arrayWithObjects:img1, img2, img3,img4,img5, nil];
+    NSArray *imgArray= [NSArray arrayWithObjects:img1, img2, img3,img4,img5 ,nil];
     [self setAnimationImages:imgArray];
-    [self setAnimationDuration: 0.4];
+    [self setAnimationDuration: 0.5];
     [self setAnimationRepeatCount:1.0];
     [self startAnimating];
-    [self performSelector:@selector(didExplode) withObject:nil afterDelay:0.4];
+	
+	[UIView beginAnimations:@"FadeOut" context:nil];
+	[UIView setAnimationDelegate:self];
+	[UIView setAnimationDuration:self.animationDuration];
+	self.alpha = 0.0;
+	[UIView commitAnimations];
+	
     
-}
-
--(void)didExplode{
-    [self setAlpha: 0.0];
-
 }
 
 - (void)dealloc {

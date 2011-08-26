@@ -258,7 +258,7 @@
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
 								<real>22</real>
-								<real>326</real>
+								<real>375</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -282,13 +282,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
+									<integer>25</integer>
+									<integer>15</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {348, 940}}</string>
+							<string>{{0, 0}, {397, 940}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -298,13 +298,13 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {365, 958}}</string>
+						<string>{{0, 0}, {414, 958}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>SCMStatusColumn</string>
 							<real>22</real>
 							<string>MainColumn</string>
-							<real>326</real>
+							<real>375</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>0 59 1920 999 0 0 1920 1058 </string>
@@ -312,20 +312,18 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>365pt</string>
+					<string>414pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>675A7C7013E9909700C28F30</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MainViewController.m</string>
+								<string>KillTheHipsters-Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,25 +331,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>675A7C7113E9909700C28F30</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MainViewController.m</string>
+										<string>KillTheHipsters-Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>67CD713813F3020900F6AB37</string>
+										<string>6753CED7140820960043131E</string>
 										<key>history</key>
 										<array>
-											<string>675A7C9813E9992900C28F30</string>
-											<string>675A7C9C13E9992900C28F30</string>
-											<string>675A7D6013E9A99A00C28F30</string>
-											<string>6725013313EB44B000878B8B</string>
-											<string>6725013413EB44B000878B8B</string>
-											<string>67CD70ED13F2CE6100F6AB37</string>
 											<string>67CD710313F2FC5D00F6AB37</string>
 											<string>67CD710413F2FC5D00F6AB37</string>
-											<string>67CD710613F2FC5D00F6AB37</string>
-											<string>67CD710713F2FC5D00F6AB37</string>
-											<string>67CD713613F3020900F6AB37</string>
-											<string>67CD713713F3020900F6AB37</string>
+											<string>67D2170F13F599460095794B</string>
+											<string>67449E99140426EE00A9C9AA</string>
+											<string>67449E9A140426EE00A9C9AA</string>
+											<string>6731E9EC140808A90093BD8E</string>
+											<string>6753CEC714081F580043131E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -365,18 +358,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1550, 662}}</string>
+								<string>{{0, 0}, {1501, 859}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1920 999 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>662pt</string>
+							<string>859pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>291pt</string>
+							<string>94pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -390,7 +383,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1550, 66}}</string>
+										<string>{{10, 27}, {1501, 67}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 59 1920 999 0 0 1920 1058 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -445,8 +440,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1550, 264}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 59 1920 999 0 0 1920 1058 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -455,7 +448,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1550pt</string>
+					<string>1501pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -474,11 +467,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>67CD70F513F2CE6100F6AB37</string>
+				<string>6753CEBD14080AE60043131E</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>67CD70F613F2CE6100F6AB37</string>
+				<string>6753CEBE14080AE60043131E</string>
 				<string>675A7C7013E9909700C28F30</string>
-				<string>67CD70F713F2CE6100F6AB37</string>
+				<string>6753CEBF14080AE60043131E</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -627,14 +620,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>67CD70F813F2CE6100F6AB37</string>
+				<string>6753CECB14081F710043131E</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>67CD70F913F2CE6100F6AB37</string>
-				<string>67CD70FA13F2CE6100F6AB37</string>
-				<string>67CD70FB13F2CE6100F6AB37</string>
-				<string>67CD70FC13F2CE6100F6AB37</string>
-				<string>67CD70FD13F2CE6100F6AB37</string>
+				<string>6753CECC14081F710043131E</string>
+				<string>6753CECD14081F710043131E</string>
+				<string>6753CECE14081F710043131E</string>
+				<string>6753CECF14081F710043131E</string>
+				<string>675A7C7013E9909700C28F30</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -668,9 +661,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>67CD713913F3020900F6AB37</string>
-		<string>67CD70FF13F2CE6100F6AB37</string>
-		<string>67CD710013F2CE6100F6AB37</string>
+		<string>6753CED114081F710043131E</string>
+		<string>6753CED214081F710043131E</string>
 		<string>/Users/diogo.costa/Projects/KillTheHipsters/KillTheHipsters.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
